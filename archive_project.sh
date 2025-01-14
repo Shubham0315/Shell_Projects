@@ -2,7 +2,7 @@
 
 #Variables
 
-PATH=/home/mobaxterm/Desktop/Shubham/Symbiosis  #Where we want to run script
+BASE=/home/mobaxterm/Desktop/Shubham/Symbiosis  #Where we want to run script
 DAYS=10                                         #For files older than 10 days
 DEPTH=1                                         #To specify to which level of subdirectories we're performing action
 RUN=0
@@ -11,7 +11,7 @@ RUN=0
 
 #Check if the directory is present
 
-if [ ! -d $PATH ]
+if [ ! -d $BASE ]
 then
         echo "directory does not exist: $PATH"
         exit 1                                  #Exit status 1 for unseccessful operation
@@ -21,7 +21,7 @@ fi
 
 #Check if "archive" folder is there or not and create if not present
 
-if [ ! -d $PATH/archive ]
+if [ ! -d $BASE/archive ]
 then
         mkdir $BASE/archive
 fi
@@ -36,7 +36,7 @@ do
         if [ $RUN -eq 0 ]
         then
                 gzip $i || exit 1                # i will zip the 'n' files one by one, if gzip is not done, exit the loop
-                mv $i.gz $PATH/archive || exit 1         #move the file to destined folder
+                mv $i.gz $BASE/archive || exit 1         #move the file to destined folder
         fi
 done
                                                    

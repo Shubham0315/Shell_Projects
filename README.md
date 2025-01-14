@@ -27,7 +27,21 @@ _*Make Cron*_
 -
 - Edit the crontab (crontab -e) and add below :- 05 01 * * * /home/mobaxterm/Desktop/shell/archive_project.sh  (So script will run at 1:05 everyday)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+*2. Monitoring RAM Space*
+-
+- Provide threshold value for RAM in script so that if RAM gets below that threshold, it will give us alert.
 
+![image](https://github.com/user-attachments/assets/22df84cb-575f-4710-8d0b-11c908c1e064)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*3. Monitoring Disk Space and Sending Email Alerts*
+-
+- To check disk space we use "df -h". Whichever rows we don't want, use "egrep" for them. For specific column values we can use "awk" and to truncate out things we can use "tr -d"
+
+![image](https://github.com/user-attachments/assets/604aa4c2-1c4e-49b2-904f-26b8d595854c)
+
+- Use "mail" command in conjunction with echo to send email alert if space is low. Define "reciepent" list at first
 

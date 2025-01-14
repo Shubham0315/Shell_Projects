@@ -13,7 +13,7 @@ RUN=0
 
 if [ ! -d $BASE ]
 then
-        echo "directory does not exist: $PATH"
+        echo "directory does not exist: $BASE"
         exit 1                                  #Exit status 1 for unseccessful operation
 fi
 

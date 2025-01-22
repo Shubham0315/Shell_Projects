@@ -51,11 +51,24 @@ _*Make Cron*_
 
 - Source directory whose backup to be created
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fc76db55-cb86-40dd-a7bd-c06a95afead6)
 
 
 - Actual script to create backup of source directory
 
 ![image](https://github.com/user-attachments/assets/8fe4c3f0-eb05-4946-8397-9cc728ab898b)
+
+*5. Deployment Script*
+-
+- Suppose we're deploying a git branch to some server like websphere. We will first build the WAR/EAR to some location(source) and then deploy it to some location (destination)
+
+- So when we run this script, it will fetch code from git repo (specific branch) and will compile the code in build repo and from there we'll deploy it to target repo
+- git pull origin $branch :- to pull code from git repo
+
+![Uploading image.png…]()
+
+*5. Find and Replace*
+-
+
 
 

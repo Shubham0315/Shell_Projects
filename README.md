@@ -45,3 +45,17 @@ _*Make Cron*_
 
 - Use "mail" command in conjunction with echo to send email alert if space is low. Define "reciepent" list at first
 
+*4. Backup Script*
+-
+- This script creates a compressed tar archive of the source directory and saves it in the backup directory with a filename that includes the current date and time. After the backup is created, it provides feedback on whether the backup was successful or not.
+
+- Source directory whose backup to be created
+
+![Uploading image.png…]()
+
+
+- Actual script to create backup of source directory
+
+![image](https://github.com/user-attachments/assets/8fe4c3f0-eb05-4946-8397-9cc728ab898b)
+
+

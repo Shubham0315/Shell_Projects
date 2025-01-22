@@ -65,10 +65,23 @@ _*Make Cron*_
 - So when we run this script, it will fetch code from git repo (specific branch) and will compile the code in build repo and from there we'll deploy it to target repo
 - git pull origin $branch :- to pull code from git repo
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8531a1c2-dcf4-41da-8bb3-f5fc53859d7c) 
 
-*5. Find and Replace*
+*6. Monitoring System Resources*
 -
+- Use while loop to run the command till the condition is true
+- We can state disk space, memory and CPU using this script by basic shell commands
+
+![image](https://github.com/user-attachments/assets/b383e7bf-7b38-46b7-9338-49b91376b619)
+
+![image](https://github.com/user-attachments/assets/0b1fecb6-4610-4a34-bc83-8404677146e5)
+
+*7. Parsing and Text Processing*
+-
+- Requirement :- Read the fields from each line and assigns them to the variables name, age, and profession 
+
+![image](https://github.com/user-attachments/assets/3207997c-6694-46cd-9274-f57854ce970b)
+
 
 
 

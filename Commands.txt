@@ -1,0 +1,20 @@
+pwd :- present working directory
+cd :- change directory
+cd ~ :- go to home dir
+cd.. :- one dir back
+cd - :- previous dir
+ls :- list dir contents
+ls -a :- show all files including hidden ones
+ls -l :- long listing
+ls -lh :- long list in human readable format
+mkdir :- make dir
+mkdir -p :- make subdirectories (-m for mode/permissions)
+rmdir :- remove dir
+rmdir -p :- remove subdirectories
+
+file :- To check file type
+touch :- create file
+rm :- remove file (forever)
+rm -i :- preevnt from accidentally removing file, asks for prompt
+rm -rf :- r recursive and f means forcefully
+cp :- copy file (copy content from one file to another or copy file from one location to other)

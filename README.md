@@ -82,6 +82,12 @@ _*Make Cron*_
 
 ![image](https://github.com/user-attachments/assets/3207997c-6694-46cd-9274-f57854ce970b)
 
+*8. Simple Calculator*
+- 
+- Use case for add, subtract, multiply and divide
+
+![Uploading image.png…]()
+
 
 
 
